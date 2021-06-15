@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+html {
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* Navbar Section  */
+
+#navbar {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.75rem;
+  height: 70px;
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+#navbar ul li a {
+  padding: 0.5rem;
+}
+
+#navbar ul li a:hover {
+  background-color: rgb(35, 138, 255);
+  border-radius: 4px;
+}
+
+ /* Home Section  */
+
+ #home {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 2rem;
+   border-bottom: 1px solid #a7a7a7;
+ }
+
+ #home img {
+   max-width: 100%;
+   height: auto;
+   border-radius: 3%;
+ }
+
+ #home .name h2 {
+   margin-bottom: 0.75rem;
+ }
+
+ #home .name p {
+   opacity: 0.8;
+   font-style: italic;
+ }
+
+ /* Courses */
+ #training {
+   color: #fff;
+   padding: 1rem;
+ }
+
+ #training .items {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ #training .items .item {
+   width: 33%;
+   text-align: center;
+   padding: 1rem;
+ }
+
+ #training .items .item:hover {
+   background-color: #fff;
+   border-radius: 4px;
+   color: rgb(0, 0, 59);
+ }
+
+ #training .trainings-header {
+   margin-bottom: 1rem;
+ }
+
+ /* Portfolio - (Projects) */
+#portfolio {
+  color: #333;
+  padding: 1rem;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.projects .project {
+  display: flex;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.projects .project .project-img {
+  margin-right: 1rem;
+  position: relative;
+}
+
+.projects .project .project-img img {
+  width: 300px;
+  border-radius: 4px;
+}
+
+.projects .project .project-img span {
+  background-color: rgb(35, 138, 255);
+  color: #fff;
+  padding: 0.25rem;
+  border-radius: 4px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.projects .project .project-img:hover span {
+  opacity: 0.3;
+}
+
+.projects .project .project-info .title {
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.projects .project .project-info .description {
+  letter-spacing: 0.5px;
+  margin-bottom: 1.25rem;
+}
+
+.projects .project .project-info .stacks {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
